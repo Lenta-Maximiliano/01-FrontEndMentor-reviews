@@ -1,0 +1,25 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 3rem;
+}
+.footer__text{
+  color: hsl(303, 10%, 53%);
+  margin: 2px;
+}
+.footer__link{
+  text-decoration: none;
+  color: hsl(300, 43%, 22%);
+}
+.footer__link:hover{
+  text-decoration: underline;
+  color: hsl(333, 80%, 67%);
+}
+
+/* ---------- >894px ---------- */
+@media only screen and (min-width: 895px) {
+  .footer{
+    grid-column: 1 / -1;
+  }
+}

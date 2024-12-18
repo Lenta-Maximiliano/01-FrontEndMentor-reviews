@@ -1,0 +1,59 @@
+.header__title{
+  padding: 0 40px;
+  margin: 0 auto;
+  text-align: center;
+  color: hsl(300, 43%, 22%);
+}
+.header__text{
+  height: 90px;
+  margin: 25px 0;
+  line-height: 1.5rem;
+  font-size: 1.12rem;
+  text-align: center;
+  color: hsl(303, 10%, 53%);
+}
+
+/* ---------- >375px ---------- */
+@media only screen and (min-width: 376px) {
+  .header__title{
+    padding: 0;
+  }
+  .header__text{
+    margin-bottom: 0;
+  }
+}
+
+/* ---------- >894px ---------- */
+@media only screen and (min-width: 895px) {
+  .header{
+    min-width: 300px;
+    height: 270px;
+    grid-column: 1 / 6;
+  }
+  .header__title{
+    padding: 0 30px;
+    margin-bottom: 40px;
+  }
+  .header__text{
+    height: 150px;
+    font-size: 1.4rem;
+  }
+}
+
+/* ---------- >1440px ---------- */
+@media only screen and (min-width: 1441px) {
+  .header{
+    height: 245px;
+    width: 412px;
+  }
+  .header__title{
+    text-align: start;
+    padding: 0;
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  .header__text{
+    text-align: start;
+    font-size: 1.1rem;
+  }
+}

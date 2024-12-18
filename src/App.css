@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Rubik+Dirt&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.appContainer {
+  background: 
+    url(./assets/images/bg-pattern-top-mobile.svg) no-repeat top left,
+    url(./assets/images/bg-pattern-bottom-mobile.svg) no-repeat bottom right;
+  background-size: contain;
+  font-family: "League Spartan", sans-serif;
+  padding: 80px 0;
+  min-width: 375px;
+}
+.appContent{
+  width: 90%;
+  min-width: 330px;
+  margin: 0 auto;
+}
+
+/* ---------- >768px ---------- */
+@media only screen and (min-width: 769px) {
+  .appContainer {
+    background: 
+      url(./assets/images/bg-pattern-top-desktop.svg) no-repeat top left,
+      url(./assets/images/bg-pattern-bottom-desktop.svg) no-repeat bottom right;
+  }
+}
+
+/* ---------- >894px ---------- */
+@media only screen and (min-width: 895px) {
+  .appContent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+
+/* ---------- >1160px ---------- */
+@media only screen and (min-width: 1160px) {
+  .appContent {
+    height: 640px;
+    width: 1114px;
+    margin-top: 50px;
+  }
+}
