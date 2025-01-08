@@ -2,8 +2,8 @@
   margin: 48px 0;
 }
 
-/* ---------- >375px ---------- */
-@media only screen and (min-width: 376px) {
+/* ---------- >480px ---------- */
+@media only screen and (min-width: 481px) {
   .stars-container{
     display: flex;
     flex-direction: column;

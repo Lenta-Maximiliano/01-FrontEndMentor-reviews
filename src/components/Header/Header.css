@@ -13,8 +13,8 @@
   color: hsl(303, 10%, 53%);
 }
 
-/* ---------- >375px ---------- */
-@media only screen and (min-width: 376px) {
+/* ---------- >480px ---------- */
+@media only screen and (min-width: 481px) {
   .header__title{
     padding: 0;
   }
